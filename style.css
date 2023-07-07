@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.container {
+    background: #ebe1eb;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20vh;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+}
+form label {
+    padding-right: 30px;
+}
+form input {
+    margin-left: 20px;
+}
+.lower {
+    margin-top: 10px;
+}
+
+.upper input, .lower input {
+    padding: 5px 2px;
+    outline-color: aqua;
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    background-color: #ffffff;
+}
+
+.lower input {
+    margin-left: -6px;
+}
+
+.upper, .lower {
+    text-align: center;
+}
+
+.submit-btn {
+    padding-top:10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#submit-btn {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: beige;
+    color: blue;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    background-color: blue;
+    color: #fff;
+    transition: all .3s ease;
+    border:none;
+    /* padding-bottom: 5px; */
+
+}
+
+.name-error-here {
+    display: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    background-color: #f5a5a5;
+}
+.password-error-here {
+    display: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    background-color: #f5a5a5;
+}
+
+
